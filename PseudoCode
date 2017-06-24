@@ -1,0 +1,37 @@
+PseudoCode
+
+Crystal Game
+
+1 Build base HTML page.
+2 Style Page
+3Javascript/JQuery build
+	- Generate random number displayed to HTML between 19-120
+	- Make 4 buttons out of images that each hold randomly generated values between 1-12.
+	- On click, button adds to score.
+	- If player matches score to random number, victory.
+	- If player exceeds number, loss.
+	- On victory or loss:
+		-declare victory or loss.
+		-reset numbers to zero.
+		-generate random number, crystals generate new number.
+
+
+
+Initialize Variables
+
+Create/Call Functions
+	-generate random number and post to one of the h1's
+	-generate 4 random hidden numbers and send to each image.
+	-eventListener waiting for user input.
+	-onclick function adding number === to value of image clicked to score.
+	-win condition score === random number.
+	-loss condition score exceeds random number.
+	-restart:
+		-generate new random number.
+		-generate 4 new random numbers tied to images.
+		-run.
+
+Get Font to embed???
+
+
+
