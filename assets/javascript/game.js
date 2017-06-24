@@ -57,7 +57,7 @@ $(document).ready(function() {
 
 	    	$("#crystalScore").text(crystalVal);  
 
-//finish win condition, loss condition, reset goalVal, crystalVal, crystals get new numbers.
+//win condition, loss condition, reset game
 			if (crystalVal >= goalVal) {
 				if (crystalVal === goalVal) {
 					wins++;	
@@ -76,9 +76,6 @@ $(document).ready(function() {
 	}	
 		
 
-
-
-//make code to send value of buttons to crystal score on click
 	initializeRandoms();
 	makeBtns();
 	Val();

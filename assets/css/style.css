@@ -4,16 +4,8 @@
 	color: white;
 }
 
-
-
 body {
-	background-color: black;
-	font-family: dark-crystal-solidimport;	
-}
-
-@font-face {
-	font-family: "dark-crystal-solid";
-	src: url("assets/font/dark-crystal-solid.ttf") format('truetype');
+	background-color: black;	
 }
 
 .logo {
